@@ -8,3 +8,5 @@
 
 [pull]
 	rebase = false
+[core]
+	excludesFile = ~/.global-gitignore
