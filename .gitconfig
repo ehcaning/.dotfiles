@@ -1,0 +1,10 @@
+[user]
+	email = git@ehcan.net
+	name = Ehsan Seyedi
+	signingkey = 5E819C535A1798490591B16B1D6023E45E39CD20
+
+[init]
+	defaultBranch = master
+
+[pull]
+	rebase = false
