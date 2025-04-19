@@ -5,9 +5,10 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nix-darwin.url = "github:nix-darwin/nix-darwin/master";
     nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
+    nix-homebrew.url = "github:zhaofengli/nix-homebrew";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs }:
+  outputs = inputs@{ self, nix-darwin, nixpkgs, nix-homebrew }:
   let
     configuration = { pkgs, config, ... }: {
       nixpkgs.config.allowUnfree = true;
@@ -19,13 +20,42 @@
           pkgs.duf
           pkgs.dust
           pkgs.eza
+          pkgs.ffmpeg
+          pkgs.fish
+          pkgs.ggshield
+          pkgs.git
+          pkgs.gnupg
           pkgs.htop
           pkgs.mkalias
           pkgs.neovim
           pkgs.obsidian
+          pkgs.pyenv
+          pkgs.rbenv
           pkgs.starship
+          pkgs.stow
+          pkgs.unzip
           pkgs.vim
+          pkgs.wget
         ];
+
+      homebrew = {
+        enable = true;
+        brews = [
+          "watch"
+        ];
+        casks = [
+          "font-monaspace" # https://github.com/githubnext/monaspace
+          "pearcleaner"
+          "raycast"
+        ];
+        masApps = {
+          "Money Lover" = 486312413; # https://apps.apple.com/us/app/money-lover-expense-manager/id486312413
+          "The Unarchiver" = 425424353; # https://apps.apple.com/de/app/the-unarchiver/id425424353
+          "Enpass" = 732710998; # https://apps.apple.com/de/app/enpass-password-manager/id732710998
+        };
+        onActivation.autoUpdate = true;
+        onActivation.upgrade = true;
+      };
 
       # Add nix apps to macos finder
       system.activationScripts.applications.text = let
@@ -48,6 +78,11 @@
         done
             '';
 
+      system.defaults = {
+        finder.AppleShowAllExtensions = true;
+        finder.AppleShowAllFiles = true;
+      };
+
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
 
@@ -69,7 +104,25 @@
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#mac
     darwinConfigurations."mac" = nix-darwin.lib.darwinSystem {
-      modules = [ configuration ];
+      modules = [
+        configuration
+        nix-homebrew.darwinModules.nix-homebrew
+        {
+          nix-homebrew = {
+            # Install Homebrew under the default prefix
+            enable = true;
+
+            # Apple Silicon Only: Also install Homebrew under the default Intel prefix for Rosetta 2
+            enableRosetta = true;
+
+            # User owning the Homebrew prefix
+            user = "ehcan";
+
+            # Automatically migrate existing Homebrew installations
+            autoMigrate = true;
+          };
+        }
+      ];
     };
   };
 }
