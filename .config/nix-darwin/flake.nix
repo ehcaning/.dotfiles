@@ -10,6 +10,7 @@
   outputs = inputs@{ self, nix-darwin, nixpkgs }:
   let
     configuration = { pkgs, config, ... }: {
+      nixpkgs.config.allowUnfree = true;
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
       environment.systemPackages =
@@ -18,8 +19,11 @@
           pkgs.duf
           pkgs.dust
           pkgs.eza
-          pkgs.mkalias
           pkgs.htop
+          pkgs.mkalias
+          pkgs.neovim
+          pkgs.obsidian
+          pkgs.starship
           pkgs.vim
         ];
 
