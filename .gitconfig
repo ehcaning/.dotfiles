@@ -11,3 +11,6 @@
 
 [core]
 	excludesFile = ~/.global-gitignore
+
+[gpg]
+	program = /run/current-system/sw/bin/gpg
