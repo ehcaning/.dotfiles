@@ -29,6 +29,7 @@
           pkgs.mkalias
           pkgs.neovim
           pkgs.obsidian
+          pkgs.pipx
           pkgs.pyenv
           pkgs.rbenv
           pkgs.starship
