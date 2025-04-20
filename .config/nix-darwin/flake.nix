@@ -50,7 +50,6 @@
           "raycast"
         ];
         masApps = {
-          "Money Lover" = 486312413; # https://apps.apple.com/us/app/money-lover-expense-manager/id486312413
           "The Unarchiver" = 425424353; # https://apps.apple.com/de/app/the-unarchiver/id425424353
           "Enpass" = 732710998; # https://apps.apple.com/de/app/enpass-password-manager/id732710998
         };
@@ -80,9 +79,31 @@
             '';
 
       system.defaults = {
-        finder.AppleShowAllExtensions = true;
-        finder.AppleShowAllFiles = true;
+        finder = {
+          AppleShowAllExtensions = true;
+          AppleShowAllFiles = true;
+          FXEnableExtensionChangeWarning = false;
+          ShowPathbar = true;
+          ShowStatusBar = true;
+        };
+        loginwindow.LoginwindowText = "Ehsan's Mac";
+        trackpad.TrackpadThreeFingerDrag = true;
+        NSGlobalDomain = {
+          AppleKeyboardUIMode = 3;       # Full keyboard access
+          AppleShowAllExtensions = true; # Show all file extensions
+          NSNavPanelExpandedStateForSaveMode = true; # Expand save dialog by default
+        };
+        dock = {
+          autohide = false;
+          largesize = 58;
+          magnification = true;
+          orientation = "bottom";
+          show-recents = false;
+          tilesize = 36;
+        };
       };
+      security.pam.services.sudo_local.touchIdAuth = true;
+      security.pam.services.sudo_local.watchIdAuth = true;
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
@@ -110,16 +131,9 @@
         nix-homebrew.darwinModules.nix-homebrew
         {
           nix-homebrew = {
-            # Install Homebrew under the default prefix
             enable = true;
-
-            # Apple Silicon Only: Also install Homebrew under the default Intel prefix for Rosetta 2
             enableRosetta = true;
-
-            # User owning the Homebrew prefix
             user = "ehcan";
-
-            # Automatically migrate existing Homebrew installations
             autoMigrate = true;
           };
         }
