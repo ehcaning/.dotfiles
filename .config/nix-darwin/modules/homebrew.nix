@@ -8,6 +8,7 @@
       "font-monaspace" # https://github.com/githubnext/monaspace
       "pearcleaner"
       "raycast"
+      "vlc"
     ];
     masApps = {
       "The Unarchiver" = 425424353; # https://apps.apple.com/de/app/the-unarchiver/id425424353

@@ -11,6 +11,7 @@
     pkgs.git
     pkgs.gnupg
     pkgs.htop
+    pkgs.localsend
     pkgs.mkalias
     pkgs.neovim
     pkgs.nixfmt-rfc-style
