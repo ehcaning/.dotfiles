@@ -7,6 +7,7 @@
     pkgs.eza
     pkgs.ffmpeg
     pkgs.fish
+    pkgs.fzf
     pkgs.ggshield
     pkgs.git
     pkgs.gnupg
@@ -24,5 +25,6 @@
     pkgs.unzip
     pkgs.vim
     pkgs.wget
+    pkgs.zoxide
   ];
 }

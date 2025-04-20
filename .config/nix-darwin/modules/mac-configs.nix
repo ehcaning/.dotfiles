@@ -13,6 +13,7 @@
       AppleKeyboardUIMode = 3; # Full keyboard access
       AppleShowAllExtensions = true; # Show all file extensions
       NSNavPanelExpandedStateForSaveMode = true; # Expand save dialog by default
+      AppleInterfaceStyle = "Dark";
     };
     dock = {
       autohide = false;
