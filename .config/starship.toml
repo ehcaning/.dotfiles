@@ -5,8 +5,9 @@ format = """$character"""
 right_format = """$all$custom"""
 
 [custom.dotfiles]
-command = 'git -C ~/.dotfiles status --porcelain | grep . >/dev/null && echo "[🧹dotfiles]"'
+command = 'git -C ~/.dotfiles status --porcelain | grep . >/dev/null && echo "[ dotfiles]" && exit 0|| git -C ~/.dotfiles log --branches --not --remotes | grep . >/dev/null && echo "[ dotfiles]"'
 when = 'true'
+style = "bold yellow"
 
 [aws]
 format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
