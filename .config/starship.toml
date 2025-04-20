@@ -1,22 +1,19 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = """$character"""
-right_format = """$all$custom"""
+format = """$directory$character"""
+right_format = """$all"""
 
 [custom.dotfiles_dirty]
-command = '''
-git -C ~/.dotfiles status --porcelain | grep . >/dev/null && echo "[✏️ dotfiles]"
-'''
-when = 'true'
+symbol = "✏️"
+when = 'git -C ~/.dotfiles status --porcelain | grep . >/dev/null && true'
+format = '\[[$symbol .dotfiles]($style)\]'
 style = "yellow"
 
 [custom.dotfiles_unpublished]
-command = '''
-git -C ~/.dotfiles status --porcelain | grep . >/dev/null && exit 0 || \
-git -C ~/.dotfiles log --branches --not --remotes | grep . >/dev/null && echo "[☁️ dotfiles]"
-'''
-when = 'true'
+symbol = "☁️"
+when = '! git -C ~/.dotfiles status --porcelain | grep . >/dev/null && git -C ~/.dotfiles log --branches --not --remotes | grep . >/dev/null'
+format = '\[[$symbol .dotfiles]($style)\]'
 style = "red"
 
 [aws]
@@ -78,6 +75,7 @@ format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
 
 [git_branch]
 format = '\[[$symbol$branch]($style)\]'
+symbol = '🌱 '
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style))'
