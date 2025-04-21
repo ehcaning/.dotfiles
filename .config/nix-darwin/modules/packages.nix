@@ -16,6 +16,7 @@
     pkgs.mkalias
     pkgs.neovim
     pkgs.nixfmt-rfc-style
+    pkgs.nodejs_22
     pkgs.obsidian
     pkgs.pipx
     pkgs.pyenv
