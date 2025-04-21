@@ -24,6 +24,7 @@
     pkgs.starship
     pkgs.stow
     pkgs.unzip
+    pkgs.uv
     pkgs.vim
     pkgs.wget
     pkgs.zoxide
