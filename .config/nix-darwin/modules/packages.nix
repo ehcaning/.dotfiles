@@ -21,6 +21,7 @@
     pkgs.pipx
     pkgs.pyenv
     pkgs.rbenv
+    pkgs.sshuttle
     pkgs.starship
     pkgs.stow
     pkgs.unzip

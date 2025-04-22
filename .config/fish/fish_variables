@@ -1,5 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ARVAN_VM_HOSTNAME:37\x2e32\x2e13\x2e208
+SETUVAR --export ARVAN_VM_USERNAME:ubuntu
 SETUVAR --export EZA_CONFIG_DIR:/Users/ehcan/\x2econfig/eza
 SETUVAR --export HOMEBREW_NO_ANALYTICS:1
 SETUVAR --export HOMEBREW_NO_ENV_HINTS:1
