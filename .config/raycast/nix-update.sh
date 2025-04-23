@@ -13,6 +13,7 @@
 #
 # Optional parameters:
 # @raycast.icon https://search.nixos.org/images/nix-logo.png
+# @raycast.needsConfirmation true
 
 nix flake update --flake ~/.config/nix-darwin
 darwin-rebuild switch --flake ~/.config/nix-darwin#mac
