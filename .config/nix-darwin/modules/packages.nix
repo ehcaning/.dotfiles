@@ -12,6 +12,7 @@
     pkgs.git
     pkgs.gnupg
     pkgs.htop
+    pkgs.hugo
     pkgs.localsend
     pkgs.mkalias
     pkgs.neovim
