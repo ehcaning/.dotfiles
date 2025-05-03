@@ -1,6 +1,7 @@
 { config, pkgs, ... }:
 {
   environment.systemPackages = [
+    pkgs.act
     pkgs.bat
     pkgs.duf
     pkgs.dust
