@@ -1,3 +1,6 @@
 font-family = Iosevka
 theme = Ayu Mirage
 shell-integration = fish
+background-opacity = 0.95
+window-padding-x = 20
+font-size = 17
