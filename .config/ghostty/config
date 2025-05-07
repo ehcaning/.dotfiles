@@ -3,6 +3,7 @@ cursor-style = bar
 cursor-style-blink = false
 font-family = Iosevka
 font-size = 17
+macos-titlebar-style=tabs
 shell-integration = fish
 shell-integration-features = no-cursor
 theme = Ayu Mirage
