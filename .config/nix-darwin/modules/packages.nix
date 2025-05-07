@@ -3,6 +3,7 @@
   environment.systemPackages = [
     pkgs.act
     pkgs.bat
+    pkgs.curlie
     pkgs.duf
     pkgs.dust
     pkgs.eza
