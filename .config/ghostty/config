@@ -1,6 +1,9 @@
-font-family = Iosevka
-theme = Ayu Mirage
-shell-integration = fish
 background-opacity = 0.95
-window-padding-x = 20
+cursor-style = bar
+cursor-style-blink = false
+font-family = Iosevka
 font-size = 17
+shell-integration = fish
+shell-integration-features = no-cursor
+theme = Ayu Mirage
+window-padding-x = 20
