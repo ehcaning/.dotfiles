@@ -17,3 +17,4 @@
 
 nix flake update --flake ~/.config/nix-darwin
 darwin-rebuild switch --flake ~/.config/nix-darwin#mac
+fish_update_completions
