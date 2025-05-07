@@ -13,3 +13,6 @@ alias llt 'ls --tree'
 
 # https://github.com/bootandy/dust
 alias du 'dust'
+
+# https://github.com/rs/curlie
+alias curl 'curlie'
