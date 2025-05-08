@@ -8,3 +8,5 @@ shell-integration = fish
 shell-integration-features = no-cursor
 theme = Ayu Mirage
 window-padding-x = 20
+
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
