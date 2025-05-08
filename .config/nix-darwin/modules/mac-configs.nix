@@ -14,6 +14,9 @@
       AppleShowAllExtensions = true; # Show all file extensions
       NSNavPanelExpandedStateForSaveMode = true; # Expand save dialog by default
       AppleInterfaceStyle = "Dark";
+      "com.apple.mouse.tapBehavior" = 1; # Enable tap to click
+      "com.apple.trackpad.scaling" = 2.5; # Set trackpad speed
+      "com.apple.swipescrolldirection" = false; # Disable natural scrolling
     };
     dock = {
       autohide = false;
