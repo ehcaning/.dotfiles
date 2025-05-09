@@ -3,10 +3,14 @@ cursor-style = bar
 cursor-style-blink = false
 font-family = Iosevka
 font-size = 17
+macos-icon = xray
 macos-titlebar-style=tabs
+quick-terminal-screen = mouse
 shell-integration = fish
 shell-integration-features = no-cursor
 theme = Ayu Mirage
+window-height = 40
 window-padding-x = 20
+window-width = 120
 
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
