@@ -7,8 +7,7 @@ abbr -a --position anywhere -- -h '-h | bat -plhelp'
 alias df 'duf'
 
 # https://github.com/eza-community/eza
-set -Ux EZA_CONFIG_DIR ~/.config/eza
-alias ls 'eza --icons=always --group-directories-first'
+alias ls 'eza --icons=always --group-directories-first --color=always --color-scale-mode=gradient --color-scale=all'
 alias ll 'ls -l'
 alias la 'ls -l -a'
 alias llt 'ls --tree'
