@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   system.defaults = {
     finder = {
@@ -22,9 +23,21 @@
       autohide = false;
       largesize = 58;
       magnification = true;
+      mru-spaces = false;
       orientation = "bottom";
       show-recents = false;
       tilesize = 36;
+      persistent-apps = [
+        "/Applications/Firefox.app"
+        { spacer = { small = true; };}
+        "/Applications/Ghostty.app"
+        "${pkgs.obsidian}/Applications/Obsidian.app"
+        "/Applications/Visual Studio Code.app"
+        "/Applications/Notion.app"
+        { spacer = { small = true; };}
+        "/Applications/Spotify.app"
+        "/Applications/Enpass.app"
+      ];
     };
   };
   security.pam.services.sudo_local.touchIdAuth = true;
