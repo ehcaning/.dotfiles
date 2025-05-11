@@ -1,0 +1,11 @@
+include ~/.config/.nano/*.nanorc
+
+set linenumbers
+set constantshow
+set softwrap
+set tabsize 4
+set autoindent
+set mouse
+set smarthome
+set backup
+set indicator

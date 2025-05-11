@@ -17,6 +17,7 @@
     pkgs.hugo
     pkgs.localsend
     pkgs.mkalias
+    pkgs.nano
     pkgs.neovim
     pkgs.nixfmt-rfc-style
     pkgs.nodejs_22
