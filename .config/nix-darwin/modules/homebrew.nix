@@ -7,6 +7,9 @@
     casks = [
       "font-monaspace" # https://github.com/githubnext/monaspace
       "ghostty"
+      "latest" # https://github.com/mangerlahn/Latest
+      "notion"
+      "obs"
       "pearcleaner"
       "raycast"
       "vlc"
