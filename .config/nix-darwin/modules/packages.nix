@@ -3,6 +3,7 @@
   environment.systemPackages = [
     pkgs.act
     pkgs.bat
+    pkgs.bitwarden-desktop
     pkgs.curlie
     pkgs.duf
     pkgs.dust
@@ -15,6 +16,7 @@
     pkgs.gnupg
     pkgs.htop
     pkgs.hugo
+    pkgs.keepassxc
     pkgs.localsend
     pkgs.mkalias
     pkgs.nano
