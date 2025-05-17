@@ -1,7 +1,7 @@
 [user]
 	email = git@ehcan.net
 	name = Ehsan Seyedi
-	signingkey = 5E819C535A1798490591B16B1D6023E45E39CD20
+	signingkey = ~/.ssh/github-commit-sign-key.pub
 
 [init]
 	defaultBranch = master
@@ -13,4 +13,7 @@
 	excludesFile = ~/.global-gitignore
 
 [gpg]
-	program = /run/current-system/sw/bin/gpg
+	format = ssh
+
+[commit]
+	gpgsign = true
