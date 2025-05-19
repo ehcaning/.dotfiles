@@ -1,10 +1,11 @@
-background-opacity = 0.95
 cursor-style = bar
 cursor-style-blink = false
 font-family = Iosevka
-font-size = 17
+font-size = 16
+font-thicken = true
+font-thicken-strength = 90
 macos-icon = xray
-macos-titlebar-style=tabs
+macos-titlebar-style = tabs
 quick-terminal-screen = mouse
 shell-integration = fish
 shell-integration-features = no-cursor
