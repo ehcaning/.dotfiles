@@ -22,7 +22,7 @@
     dock = {
       autohide = false;
       largesize = 58;
-      magnification = true;
+      magnification = false;
       mru-spaces = false;
       orientation = "bottom";
       show-recents = false;
