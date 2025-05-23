@@ -30,6 +30,7 @@
     pkgs.sshuttle
     pkgs.starship
     pkgs.stow
+    pkgs.tmux
     pkgs.unzip
     pkgs.uv
     pkgs.vim

@@ -2,6 +2,7 @@
 {
   nix.settings.experimental-features = "nix-command flakes";
   nixpkgs.config.allowUnfree = true;
+  nixpkgs.config.allowBroken = true;
   nixpkgs.hostPlatform = "aarch64-darwin";
 
   system.stateVersion = 6;
