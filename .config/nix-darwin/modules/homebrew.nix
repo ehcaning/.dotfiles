@@ -10,7 +10,6 @@
       "font-fira-code"
       "font-hasklig"
       "font-hasklug-nerd-font"
-      "font-iosevka"
       "font-jetbrains-mono"
       "font-monaspace" # https://github.com/githubnext/monaspace
       "font-source-code-pro"
