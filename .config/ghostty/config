@@ -1,6 +1,5 @@
 cursor-style = bar
 cursor-style-blink = false
-font-family = Iosevka
 font-size = 16
 font-thicken = true
 font-thicken-strength = 90
