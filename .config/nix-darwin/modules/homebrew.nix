@@ -5,7 +5,17 @@
       "watch"
     ];
     casks = [
+      "font-code-new-roman-nerd-font"
+      "font-fira-code-nerd-font"
+      "font-fira-code"
+      "font-hasklig"
+      "font-hasklug-nerd-font"
+      "font-iosevka"
+      "font-jetbrains-mono"
       "font-monaspace" # https://github.com/githubnext/monaspace
+      "font-source-code-pro"
+      "font-ubuntu-mono-nerd-font"
+      "font-ubuntu-mono"
       "ghostty"
       "latest" # https://github.com/mangerlahn/Latest
       "notion"
