@@ -11,7 +11,7 @@
     pkgs.ffmpeg
     pkgs.fish
     pkgs.fzf
-    pkgs.ggshield
+    # pkgs.ggshield
     pkgs.git
     pkgs.gnupg
     pkgs.htop
@@ -25,6 +25,7 @@
     pkgs.nodejs_22
     pkgs.obsidian
     pkgs.pipx
+    pkgs.postman
     pkgs.pyenv
     pkgs.rbenv
     pkgs.sshuttle

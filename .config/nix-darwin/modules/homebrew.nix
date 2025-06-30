@@ -5,6 +5,7 @@
       "watch"
     ];
     casks = [
+      "android-platform-tools"
       "font-code-new-roman-nerd-font"
       "font-fira-code-nerd-font"
       "font-fira-code"
