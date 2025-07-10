@@ -1,0 +1,276 @@
+{
+  // =============================
+  // Language-specific settings
+  // =============================
+
+  // Docker Compose
+  "[dockercompose]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  // HTML
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // JavaScript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.format.enable": false,
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  // JSONC
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.formatOnType": true
+  },
+  "python.languageServer": "Pylance",
+  // TypeScript
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  // Go
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    }
+  },
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+    "go-langserver": "gopls"
+  },
+  "go.lintFlags": ["--fast"],
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "package",
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
+  },
+  "go.coverOnSingleTest": true,
+  "go.toolsManagement.autoUpdate": true,
+  "go.formatTool": "goimports",
+  "go.formatFlags": ["-local", "github.com/hellofresh"],
+  "groupImports.onSave": false,
+  "gopls": {
+    "ui.semanticTokens": true,
+    "formatting.local": "github.com/taxfix"
+  },
+  "go.buildFlags": ["-tags=unit,integration"],
+  "go.testTags": "unit,integration",
+  // Ruby
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnType": true
+  },
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "rbenv"
+  },
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "signatureHelp": true,
+    "typeHierarchy": true
+  },
+  // YAML
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  // Markdown
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  // Nix
+  "[nix]": {
+    "editor.formatOnSave": false
+  },
+  // SCSS
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css"
+    }
+  ],
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  // GitHub Actions Workflow
+  "[github-actions-workflow]": {
+    "editor.formatOnSave": false
+  },
+
+  // =============================
+  // Editor settings
+  // =============================
+  /* More fonts:
+	CodeNewRoman Nerd Font Mono
+	Fira Code
+	Hasklig
+	Iosevka
+	Menlo
+	Monaspace Neon
+	Operator Mono
+	Source Code Pro
+	Ubuntu Mono
+  Jetbrains Mono
+  MonoLisa Nerd Font Mono
+  */
+  "editor.fontFamily": "'Jetbrains Mono', monospace",
+  "editor.inlineSuggest.fontFamily": "'Jetbrains Mono', monospace",
+  "editor.fontSize": 15,
+  "debug.toolBarLocation": "commandCenter",
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 80,
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.dragAndDrop": true,
+  "editor.multiCursorLimit": 20000,
+  "files.insertFinalNewline": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/vendor/*/**": true
+  },
+  "files.trimTrailingWhitespace": true,
+
+  // =============================
+  // Workbench & Window
+  // =============================
+
+  "workbench.iconTheme": "monospace-icons",
+  "workbench.startupEditor": "none",
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "window.newWindowProfile": "Default",
+
+  // =============================
+  // Terminal settings
+  // =============================
+
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'Jetbrains Mono', monospace",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.profiles.osx": {
+    "fish": {
+      "path": "/run/current-system/sw/bin/fish",
+      "args": [],
+      "icon": "terminal"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.suggest.enabled": true,
+  "terminal.integrated.scrollback": 5000,
+  "terminal.external.osxExec": "Ghostty.app",
+
+  // =============================
+  // Git settings
+  // =============================
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.ignoreMissingGitWarning": true,
+  "git.mergeEditor": true,
+  "git.enableCommitSigning": true,
+  "git.ignoreRebaseWarning": true,
+  "git.replaceTagsWhenPull": true,
+
+  // =============================
+  // Prettier & Formatting
+  // =============================
+
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+
+  // =============================
+  // Extensions & Miscellaneous
+  // =============================
+
+  "settingsSync.ignoredSettings": ["editor.fontSize", "window.newWindowProfile"],
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.folders.associations": {
+    "repository": "database"
+  },
+  "material-icon-theme.files.associations": {
+    "*.fish": "../../icons/fish",
+    "fish_variables": "../../icons/fish",
+    "ghostty/config": "../../icons/ghost",
+    ".global-gitignore": "git"
+  },
+  "jupyter.askForKernelRestart": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "githubPullRequests.pullBranch": "never",
+  "makefile.configureOnOpen": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "telemetry.telemetryLevel": "off",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
+  "search.followSymlinks": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "mcp": {
+    "servers": {
+      "github": {
+        "type": "http",
+        "url": "https://api.githubcopilot.com/mcp/"
+      }
+    }
+  },
+  "docker.extension.dockerEngineAvailabilityPrompt": false
+}
