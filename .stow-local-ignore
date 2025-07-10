@@ -23,3 +23,5 @@ _darcs
 ^/COPYING
 
 .DS_Store
+
+.cache_ggshield
