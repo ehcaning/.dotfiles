@@ -3,6 +3,7 @@
     enable = true;
     brews = [
       "watch"
+      "git-secrets"
     ];
     casks = [
       "android-platform-tools"
