@@ -2,8 +2,9 @@
   homebrew = {
     enable = true;
     brews = [
-      "watch"
       "git-secrets"
+      "noahgorstein/tap/jqp"
+      "watch"
     ];
     casks = [
       "android-platform-tools"
