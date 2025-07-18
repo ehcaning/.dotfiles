@@ -24,7 +24,6 @@
       "obs"
       "pearcleaner"
       "raycast"
-      "tabby"
       "vlc"
     ];
     masApps = {
