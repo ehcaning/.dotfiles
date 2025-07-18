@@ -264,13 +264,5 @@
   "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
   "search.followSymlinks": false,
   "docker.extension.enableComposeLanguageServer": false,
-  "mcp": {
-    "servers": {
-      "github": {
-        "type": "http",
-        "url": "https://api.githubcopilot.com/mcp/"
-      }
-    }
-  },
   "docker.extension.dockerEngineAvailabilityPrompt": false
 }
