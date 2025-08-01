@@ -36,7 +36,7 @@
         "/Applications/Notion.app"
         { spacer = { small = true; };}
         "/Applications/Spotify.app"
-        "/Applications/Enpass.app"
+        "/Applications/1Password.app"
       ];
     };
   };
