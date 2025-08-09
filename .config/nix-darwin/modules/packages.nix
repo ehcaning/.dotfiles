@@ -3,7 +3,6 @@
   environment.systemPackages = [
     pkgs.act
     pkgs.bat
-    pkgs.bitwarden-desktop
     pkgs.curlie
     pkgs.duf
     pkgs.dust

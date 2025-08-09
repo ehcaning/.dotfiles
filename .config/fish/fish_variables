@@ -7,7 +7,6 @@ SETUVAR --export FZF_DEFAULT_OPTS_FILE:/Users/ehcan/\x2econfig/fzf/config
 SETUVAR --export HOMEBREW_NO_ANALYTICS:1
 SETUVAR --export HOMEBREW_NO_ENV_HINTS:1
 SETUVAR --export PYENV_ROOT:/Users/ehcan/\x2epyenv
-SETUVAR --export SSH_AUTH_SOCK:/Users/ehcan/\x2ebitwarden\x2dssh\x2dagent\x2esock
 SETUVAR __fish_initialized:3800
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2d\x2dreverse
