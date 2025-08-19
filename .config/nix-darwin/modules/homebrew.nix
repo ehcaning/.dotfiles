@@ -7,10 +7,12 @@
       "watch"
     ];
     casks = [
+      "1password-cli"
       "android-platform-tools"
       "font-code-new-roman-nerd-font"
       "font-fira-code-nerd-font"
       "font-fira-code"
+      "font-google-sans-code"
       "font-hasklig"
       "font-hasklug-nerd-font"
       "font-jetbrains-mono"

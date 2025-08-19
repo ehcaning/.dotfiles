@@ -1,6 +1,7 @@
 cursor-style = bar
 cursor-style-blink = false
 font-size = 16
+font-family = "Jetbrains Mono"
 font-thicken = true
 font-thicken-strength = 90
 macos-icon = xray

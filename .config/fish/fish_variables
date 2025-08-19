@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export ARVAN_VM_HOSTNAME:37\x2e32\x2e13\x2e208
+SETUVAR --export ARVAN_VM_HOSTNAME:1\x2e2\x2e3\x2e4
 SETUVAR --export ARVAN_VM_USERNAME:ubuntu
 SETUVAR --export EZA_CONFIG_DIR:/Users/ehcan/\x2econfig/eza
 SETUVAR --export FZF_DEFAULT_OPTS_FILE:/Users/ehcan/\x2econfig/fzf/config
