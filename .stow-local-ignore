@@ -25,3 +25,4 @@ _darcs
 .DS_Store
 
 .cache_ggshield
+Makefile

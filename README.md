@@ -18,5 +18,5 @@ git clone git@github.com:ehcaning/.dotfiles.git ~/.dotfiles
 
 ```bash
 cd ~/.dotfiles
-stow .
+make
 ```
