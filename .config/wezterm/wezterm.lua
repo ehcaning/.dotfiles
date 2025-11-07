@@ -25,6 +25,7 @@ config.window_padding = {
   bottom = 10,
 }
 config.window_close_confirmation = 'NeverPrompt'
+config.scrollback_lines = 50000
 
 local action = wezterm.action
 config.keys = {
