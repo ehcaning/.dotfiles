@@ -35,6 +35,7 @@
     pkgs.uv
     pkgs.vim
     pkgs.wget
+    pkgs.yq-go
     pkgs.zoxide
   ];
 }

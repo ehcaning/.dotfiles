@@ -4,6 +4,7 @@
     brews = [
       "git-secrets"
       "noahgorstein/tap/jqp"
+      "nushell"
       "watch"
     ];
     casks = [
@@ -27,6 +28,7 @@
       "pearcleaner"
       "raycast"
       "vlc"
+      "warp"
       "wezterm"
     ];
     masApps = {
