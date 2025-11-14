@@ -3,5 +3,10 @@
   {
     "key": "ctrl+shift+alt+`",
     "command": "workbench.action.createTerminalEditor"
+  },
+  {
+    "key": "shift+cmd+j",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "panelAlignment == 'center' || panelPosition != 'botton' && panelPosition != 'top'"
   }
 ]
