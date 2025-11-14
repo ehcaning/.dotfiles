@@ -5,6 +5,7 @@
       "git-secrets"
       "noahgorstein/tap/jqp"
       "nushell"
+      "ripgrep"
       "watch"
     ];
     casks = [
