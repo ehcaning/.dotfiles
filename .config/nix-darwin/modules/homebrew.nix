@@ -3,6 +3,7 @@
     enable = true;
     brews = [
       "git-secrets"
+      "mise"
       "noahgorstein/tap/jqp"
       "nushell"
       "ripgrep"
@@ -11,6 +12,7 @@
     casks = [
       "1password-cli"
       "android-platform-tools"
+      "dbeaver-community"
       "font-code-new-roman-nerd-font"
       "font-fira-code-nerd-font"
       "font-fira-code"

@@ -23,10 +23,7 @@
     pkgs.nixfmt-rfc-style
     pkgs.nodejs_22
     pkgs.obsidian
-    pkgs.pipx
     pkgs.postman
-    pkgs.pyenv
-    pkgs.rbenv
     pkgs.sshuttle
     pkgs.starship
     pkgs.stow
