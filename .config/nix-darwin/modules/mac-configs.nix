@@ -31,6 +31,7 @@
         "/Applications/Firefox.app"
         { spacer = { small = true; };}
         "/Applications/Ghostty.app"
+        "/Applications/WezTerm.app"
         "${pkgs.obsidian}/Applications/Obsidian.app"
         "/Applications/Visual Studio Code.app"
         "/Applications/Notion.app"
@@ -40,6 +41,4 @@
       ];
     };
   };
-  security.pam.services.sudo_local.touchIdAuth = true;
-  security.pam.services.sudo_local.watchIdAuth = true;
 }

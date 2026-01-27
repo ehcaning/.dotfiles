@@ -20,7 +20,7 @@
     pkgs.mkalias
     pkgs.nano
     pkgs.neovim
-    pkgs.nixfmt-rfc-style
+    pkgs.nixfmt
     pkgs.nodejs_22
     pkgs.obsidian
     pkgs.postman
