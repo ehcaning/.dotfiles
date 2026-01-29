@@ -1,0 +1,4 @@
+div.monaco-list-row div[aria-label$="_test.go"] div.monaco-icon-label-container {
+    background-color: #424242;
+    font-style: italic;
+}

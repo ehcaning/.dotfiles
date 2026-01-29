@@ -163,6 +163,7 @@
   Jetbrains Mono
   MonoLisa Nerd Font Mono
   */
+  // "editor.fontFamily": "'Google Sans Code', monospace",
   "editor.fontFamily": "'Jetbrains Mono', monospace",
   "editor.inlineSuggest.fontFamily": "'Jetbrains Mono', monospace",
   "editor.fontSize": 15,
@@ -264,5 +265,9 @@
   "workbench.commandPalette.experimental.enableNaturalLanguageSearch": true,
   "search.followSymlinks": false,
   "docker.extension.enableComposeLanguageServer": false,
-  "docker.extension.dockerEngineAvailabilityPrompt": false
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "files.associations": {
+    "*.yml": "yaml"
+  },
+  "vscode_custom_css.imports": ["file:///Users/ehcan/.vscode/css/test-highlighter.css"]
 }
