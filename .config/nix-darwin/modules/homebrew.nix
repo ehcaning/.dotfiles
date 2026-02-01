@@ -24,7 +24,7 @@
       "font-source-code-pro"
       "font-ubuntu-mono-nerd-font"
       "font-ubuntu-mono"
-      "ghostty"
+      "ghostty@tip"
       "latest" # https://github.com/mangerlahn/Latest
       "notion"
       "obs"

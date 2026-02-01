@@ -2,7 +2,8 @@
 bun = 'latest'
 deno = 'latest'
 go = 'latest'
-java = '25'
+java = ['25', '24']
+kotlin = 'latest'
 node = ['latest', '24']
 python = ['latest', '3.14']
 ruby = 'latest'

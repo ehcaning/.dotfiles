@@ -163,7 +163,6 @@
   Jetbrains Mono
   MonoLisa Nerd Font Mono
   */
-  // "editor.fontFamily": "'Google Sans Code', monospace",
   "editor.fontFamily": "'Jetbrains Mono', monospace",
   "editor.inlineSuggest.fontFamily": "'Jetbrains Mono', monospace",
   "editor.fontSize": 15,
@@ -192,7 +191,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "freeCodeCamp Dark Theme",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "window.confirmBeforeClose": "keyboardOnly",
@@ -269,5 +268,6 @@
   "files.associations": {
     "*.yml": "yaml"
   },
-  "vscode_custom_css.imports": ["file:///Users/ehcan/.vscode/css/test-highlighter.css"]
+  "vscode_custom_css.imports": ["file:///Users/ehcan/.vscode/css/test-highlighter.css"],
+  "search.showLineNumbers": true
 }
