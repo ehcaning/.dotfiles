@@ -31,9 +31,8 @@
         "/Applications/Firefox.app"
         { spacer = { small = true; };}
         "/Applications/Ghostty.app"
-        "/Applications/WezTerm.app"
-        "${pkgs.obsidian}/Applications/Obsidian.app"
         "/Applications/Visual Studio Code.app"
+        "${pkgs.obsidian}/Applications/Obsidian.app"
         "/Applications/Notion.app"
         { spacer = { small = true; };}
         "/Applications/Spotify.app"
