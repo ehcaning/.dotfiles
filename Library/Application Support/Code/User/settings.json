@@ -5,16 +5,16 @@
 
   // Docker Compose
   "[dockercompose]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   // HTML
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   // JavaScript
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "eslint.format.enable": false,
@@ -22,37 +22,37 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
   },
   // JSONC
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   // Python
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.wordBasedSuggestions": "off",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "python.languageServer": "Pylance",
   // TypeScript
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
   },
   // Go
   "[go]": {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit",
-      "source.fixAll": "explicit"
-    }
+      "source.fixAll": "explicit",
+    },
   },
   "go.useLanguageServer": true,
   "go.alternateTools": {
-    "go-langserver": "gopls"
+    "go-langserver": "gopls",
   },
   "go.lintFlags": ["--fast"],
   "go.lintTool": "golangci-lint",
@@ -62,7 +62,7 @@
     "coveredHighlightColor": "rgba(64,128,128,0.5)",
     "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
     "coveredGutterStyle": "blockgreen",
-    "uncoveredGutterStyle": "blockred"
+    "uncoveredGutterStyle": "blockred",
   },
   "go.coverOnSingleTest": true,
   "go.toolsManagement.autoUpdate": true,
@@ -71,7 +71,7 @@
   "groupImports.onSave": false,
   "gopls": {
     "ui.semanticTokens": true,
-    "formatting.local": "github.com/taxfix"
+    "formatting.local": "github.com/taxfix",
   },
   "go.buildFlags": ["-tags=unit,integration"],
   "go.testTags": "unit,integration",
@@ -82,10 +82,10 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.semanticHighlighting.enabled": true,
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
   },
   "rubyLsp.rubyVersionManager": {
-    "identifier": "rbenv"
+    "identifier": "rbenv",
   },
   "rubyLsp.enabledFeatures": {
     "codeActions": true,
@@ -105,11 +105,11 @@
     "definition": true,
     "workspaceSymbol": true,
     "signatureHelp": true,
-    "typeHierarchy": true
+    "typeHierarchy": true,
   },
   // YAML
   "[yaml]": {
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
   },
   // Markdown
   "[markdown]": {
@@ -120,31 +120,31 @@
     "editor.quickSuggestions": {
       "comments": "off",
       "strings": "off",
-      "other": "off"
-    }
+      "other": "off",
+    },
   },
   // Nix
   "[nix]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   // SCSS
   "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+    "editor.defaultFormatter": "vscode.css-language-features",
   },
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
-      "extensionName": ".css"
+      "extensionName": ".css",
     },
     {
       "format": "compressed",
-      "extensionName": ".min.css"
-    }
+      "extensionName": ".min.css",
+    },
   ],
   "liveSassCompile.settings.showOutputWindowOn": "Error",
   // GitHub Actions Workflow
   "[github-actions-workflow]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
 
   // =============================
@@ -180,7 +180,7 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true,
-    "**/vendor/*/**": true
+    "**/vendor/*/**": true,
   },
   "files.trimTrailingWhitespace": true,
 
@@ -191,7 +191,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Ubuntu Color VSCode Soft Dark",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "window.confirmBeforeClose": "keyboardOnly",
@@ -208,8 +208,8 @@
     "fish": {
       "path": "/run/current-system/sw/bin/fish",
       "args": [],
-      "icon": "terminal"
-    }
+      "icon": "terminal",
+    },
   },
   "terminal.integrated.defaultProfile.osx": "fish",
   "terminal.integrated.suggest.enabled": true,
@@ -245,13 +245,13 @@
   "security.workspace.trust.untrustedFiles": "open",
   "material-icon-theme.folders.color": "#42a5f5",
   "material-icon-theme.folders.associations": {
-    "repository": "database"
+    "repository": "database",
   },
   "material-icon-theme.files.associations": {
     "*.fish": "../../icons/fish",
     "fish_variables": "../../icons/fish",
     "ghostty/config": "../../icons/ghost",
-    ".global-gitignore": "git"
+    ".global-gitignore": "git",
   },
   "jupyter.askForKernelRestart": false,
   "diffEditor.ignoreTrimWhitespace": true,
@@ -266,8 +266,8 @@
   "docker.extension.enableComposeLanguageServer": false,
   "docker.extension.dockerEngineAvailabilityPrompt": false,
   "files.associations": {
-    "*.yml": "yaml"
+    "*.yml": "yaml",
   },
   "vscode_custom_css.imports": ["file:///Users/ehcan/.vscode/css/test-highlighter.css"],
-  "search.showLineNumbers": true
+  "search.showLineNumbers": true,
 }

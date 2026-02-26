@@ -1,3 +1,5 @@
+auto-update-channel = tip
+auto-update = download
 cursor-style = bar
 cursor-style-blink = false
 font-size = 16
@@ -13,5 +15,4 @@ theme = Ayu Mirage
 window-height = 40
 window-padding-x = 20
 window-width = 120
-
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
