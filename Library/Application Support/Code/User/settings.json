@@ -127,7 +127,10 @@
   "[nix]": {
     "editor.formatOnSave": false,
   },
-  // SCSS
+  // CSS/SCSS
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features",
   },
@@ -157,14 +160,18 @@
 	Iosevka
 	Menlo
 	Monaspace Neon
+	Monaspace Argon
+	Monaspace Xenon
+	Monaspace Radon
+	Monaspace Krypton
 	Operator Mono
 	Source Code Pro
 	Ubuntu Mono
   Jetbrains Mono
   MonoLisa Nerd Font Mono
   */
-  "editor.fontFamily": "'Jetbrains Mono', monospace",
-  "editor.inlineSuggest.fontFamily": "'Jetbrains Mono', monospace",
+  "editor.fontFamily": "'MonoLisa Nerd Font Mono', monospace",
+  "editor.inlineSuggest.fontFamily": "'Monaspace Radon', monospace",
   "editor.fontSize": 15,
   "debug.toolBarLocation": "commandCenter",
   "editor.cursorBlinking": "solid",
@@ -191,7 +198,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.settings.editor": "json",
-  "workbench.colorTheme": "Ubuntu Color VSCode Soft Dark",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "window.confirmBeforeClose": "keyboardOnly",
@@ -202,7 +208,7 @@
   // =============================
 
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontFamily": "'Jetbrains Mono', monospace",
+  "terminal.integrated.fontFamily": "'MonoLisa Nerd Font Mono', 'JetbrainsMono Nerd Font', monospace",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.profiles.osx": {
     "fish": {
@@ -270,4 +276,18 @@
   },
   "vscode_custom_css.imports": ["file:///Users/ehcan/.vscode/css/test-highlighter.css"],
   "search.showLineNumbers": true,
+  "chat.tools.urls.autoApprove": {
+    "https://github.com": {
+      "approveRequest": false,
+      "approveResponse": true,
+    },
+  },
+  "workbench.editor.enablePreview": false,
+  "chat.viewSessions.orientation": "stacked",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
 }

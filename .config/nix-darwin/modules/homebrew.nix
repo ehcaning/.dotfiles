@@ -2,6 +2,7 @@
   homebrew = {
     enable = true;
     brews = [
+      "gemini-cli"
       "git-secrets"
       "mise"
       "noahgorstein/tap/jqp"
@@ -12,6 +13,8 @@
     casks = [
       "1password-cli"
       "android-platform-tools"
+      "bruno"
+      "claude-code"
       "dbeaver-community"
       "font-code-new-roman-nerd-font"
       "font-fira-code-nerd-font"
