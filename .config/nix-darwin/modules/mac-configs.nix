@@ -1,5 +1,9 @@
 { pkgs, ... }:
 {
+  security.pam.services.sudo_local = {
+    touchIdAuth = true;
+    watchIdAuth = true;
+  };
   system.defaults = {
     finder = {
       AppleShowAllExtensions = true;
@@ -34,6 +38,8 @@
         "/Applications/Visual Studio Code.app"
         "${pkgs.obsidian}/Applications/Obsidian.app"
         "/Applications/Notion.app"
+        "/Applications/Todoist.app"
+        "/Applications/Claude.app"
         { spacer = { small = true; };}
         "/Applications/Spotify.app"
         "/Applications/1Password.app"

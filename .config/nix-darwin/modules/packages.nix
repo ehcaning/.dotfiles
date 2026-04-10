@@ -21,7 +21,6 @@
     pkgs.nano
     pkgs.neovim
     pkgs.nixfmt
-    pkgs.nodejs_22
     pkgs.obsidian
     pkgs.postman
     pkgs.sshuttle
