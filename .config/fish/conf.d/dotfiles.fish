@@ -1,1 +1,1 @@
-alias dotfiles "code ~/.dotfiles"
+alias dotfiles "code ~/.dotfiles.code-workspace"

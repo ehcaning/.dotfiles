@@ -14,4 +14,4 @@
 # Optional parameters:
 # @raycast.icon 🗃️
 
-code ~/.dotfiles
+code ~/.dotfiles.code-workspace
