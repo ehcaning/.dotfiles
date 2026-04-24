@@ -7,5 +7,10 @@
       "path": "/Users/ehcan/.dotfiles.private",
     },
   ],
-  "settings": {},
+  "settings": {
+    "files.associations": {
+      "**/.ssh/config": "ssh_config",
+      "**/.ssh/hosts/**": "ssh_config",
+    },
+  },
 }
