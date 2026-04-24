@@ -8,6 +8,7 @@
       "noahgorstein/tap/jqp"
       "nushell"
       "ripgrep"
+      "rtk"
       "watch"
     ];
     casks = [
