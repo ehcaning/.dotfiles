@@ -12,6 +12,7 @@ brew install stow
 
 ```bash
 git clone git@github.com:ehcaning/.dotfiles.git ~/.dotfiles
+git clone git@github.com:ehcaning/.dotfiles.private.git ~/.dotfiles.private
 ```
 
 ## Sync
