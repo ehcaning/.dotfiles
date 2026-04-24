@@ -290,4 +290,6 @@
     "markdown": false,
     "scminput": false,
   },
+  "claudeCode.preferredLocation": "panel",
+  "terminal.integrated.stickyScroll.enabled": false,
 }
