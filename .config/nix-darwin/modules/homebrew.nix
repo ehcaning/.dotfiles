@@ -10,6 +10,7 @@
       "ripgrep"
       "rtk"
       "watch"
+      "witr"
     ];
     casks = [
       "1password-cli"

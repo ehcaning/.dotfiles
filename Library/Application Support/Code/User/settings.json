@@ -292,4 +292,6 @@
   },
   "claudeCode.preferredLocation": "panel",
   "terminal.integrated.stickyScroll.enabled": false,
+  "scm.defaultViewMode": "tree",
+  "search.defaultViewMode": "tree",
 }

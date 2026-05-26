@@ -1,4 +1,4 @@
-#!/usr/bin/env /Users/ehcan/.pyenv/shims/python
+#!/Users/ehcan/.local/share/mise/installs/python/latest/bin/python3
 
 # Required parameters:
 # @raycast.schemaVersion 1
