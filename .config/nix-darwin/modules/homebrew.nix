@@ -18,6 +18,7 @@
       "bruno"
       "claude-code"
       "dbeaver-community"
+      "font-sn-pro"
       "font-code-new-roman-nerd-font"
       "font-fira-code-nerd-font"
       "font-fira-code"

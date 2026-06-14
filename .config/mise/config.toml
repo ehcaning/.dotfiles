@@ -7,3 +7,5 @@ kotlin = 'latest'
 node = ['latest', '24']
 python = ['latest', '3.14']
 ruby = 'latest'
+
+delta = 'latest'

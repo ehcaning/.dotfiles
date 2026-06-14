@@ -12,5 +12,8 @@
       "**/.ssh/config": "ssh_config",
       "**/.ssh/hosts/**": "ssh_config",
     },
+    "material-icon-theme.files.associations": {
+      "homebrew.nix": "../../icons/homebrew",
+    },
   },
 }

@@ -11,9 +11,21 @@
 
 [core]
 	excludesFile = ~/.global-gitignore
+	pager = delta
 
 [gpg]
 	format = ssh
 
 [commit]
 	gpgsign = true
+
+[interactive]
+	diffFilter = delta --color-only
+
+[merge]
+	conflictStyle = zdiff3
+
+[delta]
+	navigate = true
+	dark = true
+    side-by-side = true
