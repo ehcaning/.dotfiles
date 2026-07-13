@@ -14,6 +14,7 @@
     },
     "material-icon-theme.files.associations": {
       "homebrew.nix": "../../icons/homebrew",
+      "*.cheat": "less",
     },
   },
 }

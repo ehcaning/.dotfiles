@@ -1,0 +1,17 @@
+cheats:
+  paths:
+    - ~/.config/navi/cheats
+style:
+  tag:
+    color: white
+    width_percentage: 10
+  comment:
+    color: white
+    width_percentage: 30
+  snippet:
+    color: white
+    width_percentage: 60
+finder:
+  command: fzf
+  overrides: --layout=reverse --preview "echo {3} | bat -l bash --color=always --paging=never"
+  overrides_var: --layout=reverse

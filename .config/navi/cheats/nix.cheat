@@ -1,0 +1,7 @@
+% 🐚 Nix
+
+# 🔄 Update Nix Packages
+nix-update
+
+# ⬆️ Upgrade Nix Packages
+nix-upgrade

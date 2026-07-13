@@ -1,0 +1,6 @@
+% 📦 Docker
+
+# 🔄 Restart Docker Container: LXC 102
+docker --context docker-lxc restart <container>
+
+$ container: docker --context docker-lxc ps -a --format "table {{.Names}}" --no-trunc | tail -n +2 --- --preview "docker inspect {1} --format='Name: {{.Name}}\nState: {{.State.Status}}\nImage: {{.Config.Image}}'"

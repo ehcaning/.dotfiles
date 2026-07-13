@@ -1,0 +1,6 @@
+% 🐚 SSH
+
+# 🧑🏻‍💻 Connect to SSH
+ssh <host>
+
+$ host: grep -h "^Host " ~/.ssh/config ~/.ssh/hosts/* 2>/dev/null | awk '{print $2}' | grep -v "^*$" --- --preview "grep -h -A 10 '^Host {1}$' ~/.ssh/config ~/.ssh/hosts/* 2>/dev/null"
